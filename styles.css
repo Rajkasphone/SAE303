@@ -1,0 +1,477 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section*/
+
+/* header*/
+
+
+.acceuil {
+    background-color: #143498;
+    height: 1100px;
+
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    background-image: url('image/workshow.png'); 
+    background-size: cover;
+    background-position: center; 
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 100px;
+    margin-top: 20px;
+    height: 34px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    position:fixed;
+}
+
+.logoimg {
+    width: 113px;
+    height: 42px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+nav {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+}
+
+
+
+
+
+
+h1 {
+    position: absolute;
+     margin-top: 20%;
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 50;
+    width: 645px;
+    text-align: center;
+    
+
+}
+
+
+.h2 {
+    width: 926px;
+    color: rgba(255,255,255,1);
+    margin-top: 25%;
+    position: absolute;
+    font-family: Faster One;
+    font-weight: Regular;
+    font-size: 190px;
+    opacity: 1;
+
+  }
+
+
+
+.eclair1 {
+    width: 289.12px; /* Ajoutez "px" après la valeur */
+    height: 144.28px;
+    margin-top: 21%;
+    margin-right: 40%;
+    transform: rotate(25deg);
+
+}
+
+.eclair2 {
+    width: 144.28px; /* Ajoutez "px" après la valeur */
+    height: 289.12px;
+    margin-top: 26%;
+    margin-right: 10%;
+
+}
+
+
+
+
+/* FIN header*/
+
+/* FIN Section*/
+
+/* QUOI*/
+
+.quoidiv{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 55%;
+}
+
+.quoictnr{
+    background-color: #E7A70F;
+    border-radius: 90px;
+    display: flex;
+    justify-content:center;
+    width: 400px;
+    height: 80px;
+    align-items: center;
+    position: absolute;
+}
+
+.quoititre{
+    font-family: Faster One;
+    color:#ffffff;
+    font-size: 40px;
+}
+
+
+.quoi{
+    height: 1500px;
+    background-image: url('image/revolution.jpg'); 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.outer-rectangle {
+    width: 600px; 
+    height: 600px; 
+    background-color: #E7A70F;
+    margin: 10%;
+    border-radius: 39px;
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center child elements horizontally */
+
+}
+
+
+.inner-rectangle {
+    width: 500px; 
+    height: 300px;
+    background-color:#143498;
+    border-radius: 39px;
+    margin-top: 7%;
+
+}
+
+
+.inner-text {
+    text-align: center;
+    padding: 20px;
+    color: white;
+
+}
+
+.inner-title {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.outer-text {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    width: 500px;
+    margin-top: 4%;
+}
+
+/* FIN QUOI*/
+
+
+
+  
+ 
+  
+
+
+
+/*QUI*/
+
+.qui{
+    height: 400px;
+}
+
+
+.quidiv{
+    display: flex;
+    justify-content: center;
+}
+
+.quictnr{
+    background-color: #E7A70F;
+    border-radius: 90px;
+    display: flex;
+    justify-content:center;
+    width: 400px;
+    height: 80px;
+    align-items: center;
+    position: absolute;
+}
+
+.quititre{
+    font-family: Faster One;
+    color:#ffffff;
+    font-size: 40px;
+}
+
+
+
+/* FIN QUI*/
+
+/*LIEU DATE*/
+
+.lieudate{
+    display: flex;
+    justify-content:center;
+    background-color:#000000;
+
+}
+
+
+/*LIEU*/
+
+.custom-container {
+    width: 477px;
+    height: 521px;
+    position: relative;
+}
+
+.blue-background {
+    width: 477px;
+    height: 521px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #143498;
+    border-radius: 50px;
+}
+
+.custom-image {
+    width: 427px;
+    height: 398px;
+    left: 25px;
+    top: 21px;
+    position: absolute;
+    border-radius: 39px;
+}
+
+.custom-address {
+    width: 477px;
+    left: 0px;
+    top: 470px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.custom-venue {
+    width: 477px;
+    height: 41px;
+    left: 0px;
+    top: 426px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* FIN LIEU*/
+
+  /*DATE*/
+
+.container2 {
+    width: 477px;
+    height: 521px;
+    position: relative;
+  }
+  
+  .blue-background2 {
+    width: 477px;
+    height: 521px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #143498;
+    border-radius: 50px;
+  }
+  
+  .content2 {
+    width: 343px;
+    height: 227px;
+    left: 67px;
+    top: 147px;
+    position: absolute;
+  }
+  
+  .content2 span {
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 300;
+    word-wrap: break-word;
+  }
+  
+  .date-section2 {
+    width: 215px;
+    height: 54px;
+    text-align: center;
+    color:#000000;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  
+  /* FIN DATE*/
+
+
+  /*FIN LIEU DATE*/
+
+/* FOOTER*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25%;
+}
+
+/* FIN FOOTER*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Carte MMX*/
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #000000; /* Nouvelle couleur de fond (bleu) */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin: 10%;
+    
+}
+
+.card svg {
+    width: 100%; /* Ajustez la largeur comme vous le souhaitez (par exemple, 80%) */
+    height: auto; /* Permet au SVG de conserver son aspect ratio */
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #211616;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover .card__content {
+    transform: rotateX(0deg);
+}
+
+.card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.card:hover svg {
+    scale: 0;
+}
+
+.card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.4;
+}
+
+
+/* FIN arte MMX*/
+
+/* Présentation personnes */
+
+/* Présentation personnes */
+
+
+
+
+/* FIN Présentation personnes */
