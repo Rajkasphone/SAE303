@@ -12,8 +12,7 @@ body {
 
 .acceuil {
     background-color: #143498;
-    height: 1100px;
-
+    height: 952px;
     width: 100%;
     display: flex; 
     justify-content: center;
@@ -127,7 +126,6 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 55%;
-    margin-top: 30%;
 }
 
 .quoictnr{
@@ -405,7 +403,6 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 20px;
     background-color: #fff;
-
   }
 
   label {
