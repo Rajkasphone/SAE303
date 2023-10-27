@@ -127,6 +127,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 55%;
+    margin-top: 30%;
 }
 
 .quoictnr{
@@ -240,6 +241,7 @@ h1 {
     font-family: Faster One;
     color:#ffffff;
     font-size: 40px;
+    
 }
 
 
@@ -249,6 +251,7 @@ h1 {
 /*LIEU DATE*/
 
 .lieudate{
+    margin-bottom: 30%;
     display: flex;
     justify-content:center;
     background-color:#ffffff;
@@ -275,18 +278,18 @@ h1 {
 }
 
 .image-lieu {
-    width: 427px;
+    margin-left: 6%;
+    margin-top: 5%;
     height: 398px;
     left: 25px;
     top: 21px;
     border-radius: 39px;
+
 }
 
 .address {
+    margin-top: 3%;
     width: 477px;
-    left: 0px;
-    top: 470px;
-    
     text-align: center;
     color: white;
     font-size: 18px;
@@ -300,7 +303,6 @@ h1 {
     height: 41px;
     left: 0px;
     top: 426px;
-    
     text-align: center;
     color: white;
     font-size: 28px;
@@ -346,14 +348,14 @@ h1 {
   }
   
   .date-titre {
-    width: 215px;
-    height: 54px;
+    margin-top: 5%;
     text-align: center;
-    color:#000000;
+    color:#ffffff;
     font-size: 32px;
     font-family: Inter;
     font-weight: 700;
     word-wrap: break-word;
+    font-style: bold;
   }
   
   /* FIN DATE*/
