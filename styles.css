@@ -364,6 +364,69 @@ h1 {
 
   /* form*/
 
+  .formulaire{
+    width: 70%;
+    height: 500px;
+    background-color: #143498;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  .aide{
+    color: #000;
+    font-family: Avenir LT Std;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 750;
+  }
+ 
+  h3.contactez {
+    color: #143498;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  form {
+    width: 1271px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    width: 1100px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color:#143498;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
     /* fin form*/
 
 /* FOOTER*/
