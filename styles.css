@@ -251,17 +251,17 @@ h1 {
 .lieudate{
     display: flex;
     justify-content:center;
-    background-color:#000000;
-
+    background-color:#ffffff;
 }
 
 
 /*LIEU*/
 
-.custom-container {
+.lieu {
     width: 477px;
     height: 521px;
     position: relative;
+    margin-right: 20%;
 }
 
 .blue-background {
@@ -269,25 +269,24 @@ h1 {
     height: 521px;
     left: 0px;
     top: 0px;
-    position: absolute;
     background: #143498;
     border-radius: 50px;
+    justify-content: center;
 }
 
-.custom-image {
+.image-lieu {
     width: 427px;
     height: 398px;
     left: 25px;
     top: 21px;
-    position: absolute;
     border-radius: 39px;
 }
 
-.custom-address {
+.address {
     width: 477px;
     left: 0px;
     top: 470px;
-    position: absolute;
+    
     text-align: center;
     color: white;
     font-size: 18px;
@@ -296,12 +295,12 @@ h1 {
     word-wrap: break-word;
 }
 
-.custom-venue {
+.venue {
     width: 477px;
     height: 41px;
     left: 0px;
     top: 426px;
-    position: absolute;
+    
     text-align: center;
     color: white;
     font-size: 28px;
@@ -314,7 +313,7 @@ h1 {
 
   /*DATE*/
 
-.container2 {
+.date {
     width: 477px;
     height: 521px;
     position: relative;
@@ -346,7 +345,7 @@ h1 {
     word-wrap: break-word;
   }
   
-  .date-section2 {
+  .date-titre {
     width: 215px;
     height: 54px;
     text-align: center;
