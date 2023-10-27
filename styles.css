@@ -97,7 +97,7 @@ h1 {
 
 
 .eclair1 {
-    width: 289.12px; /* Ajoutez "px" après la valeur */
+    width: 289.12px; 
     height: 144.28px;
     margin-top: 21%;
     margin-right: 40%;
@@ -106,7 +106,7 @@ h1 {
 }
 
 .eclair2 {
-    width: 144.28px; /* Ajoutez "px" après la valeur */
+    width: 144.28px; 
     height: 289.12px;
     margin-top: 26%;
     margin-right: 10%;
@@ -361,6 +361,11 @@ h1 {
 
 
   /*FIN LIEU DATE*/
+
+
+  /* form*/
+
+    /* fin form*/
 
 /* FOOTER*/
 
