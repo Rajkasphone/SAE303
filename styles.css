@@ -97,7 +97,7 @@ h1 {
 
 
 .eclair1 {
-    width: 289.12px; /* Ajoutez "px" après la valeur */
+    width: 289.12px; 
     height: 144.28px;
     margin-top: 21%;
     margin-right: 40%;
@@ -106,7 +106,7 @@ h1 {
 }
 
 .eclair2 {
-    width: 144.28px; /* Ajoutez "px" après la valeur */
+    width: 144.28px; 
     height: 289.12px;
     margin-top: 26%;
     margin-right: 10%;
@@ -127,6 +127,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 55%;
+    margin-top: 30%;
 }
 
 .quoictnr{
@@ -240,6 +241,7 @@ h1 {
     font-family: Faster One;
     color:#ffffff;
     font-size: 40px;
+    
 }
 
 
@@ -249,19 +251,20 @@ h1 {
 /*LIEU DATE*/
 
 .lieudate{
+    margin-bottom: 30%;
     display: flex;
     justify-content:center;
-    background-color:#000000;
-
+    background-color:#ffffff;
 }
 
 
 /*LIEU*/
 
-.custom-container {
+.lieu {
     width: 477px;
     height: 521px;
     position: relative;
+    margin-right: 20%;
 }
 
 .blue-background {
@@ -269,25 +272,24 @@ h1 {
     height: 521px;
     left: 0px;
     top: 0px;
-    position: absolute;
     background: #143498;
     border-radius: 50px;
+    justify-content: center;
 }
 
-.custom-image {
-    width: 427px;
+.image-lieu {
+    margin-left: 6%;
+    margin-top: 5%;
     height: 398px;
     left: 25px;
     top: 21px;
-    position: absolute;
     border-radius: 39px;
+
 }
 
-.custom-address {
+.address {
+    margin-top: 3%;
     width: 477px;
-    left: 0px;
-    top: 470px;
-    position: absolute;
     text-align: center;
     color: white;
     font-size: 18px;
@@ -296,12 +298,11 @@ h1 {
     word-wrap: break-word;
 }
 
-.custom-venue {
+.venue {
     width: 477px;
     height: 41px;
     left: 0px;
     top: 426px;
-    position: absolute;
     text-align: center;
     color: white;
     font-size: 28px;
@@ -314,7 +315,7 @@ h1 {
 
   /*DATE*/
 
-.container2 {
+.date {
     width: 477px;
     height: 521px;
     position: relative;
@@ -346,21 +347,111 @@ h1 {
     word-wrap: break-word;
   }
   
-  .date-section2 {
-    width: 215px;
-    height: 54px;
+  .date-titre {
+    margin-top: 5%;
     text-align: center;
-    color:#000000;
+    color:#ffffff;
     font-size: 32px;
     font-family: Inter;
     font-weight: 700;
     word-wrap: break-word;
+    font-style: bold;
   }
   
   /* FIN DATE*/
 
 
   /*FIN LIEU DATE*/
+
+
+  /* form*/
+
+  .formulaire{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cont-form {
+    width: 70%;
+    height: 500px;
+    background-color: #143498;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 20%;
+  }
+
+  .aide {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 750;
+  }
+
+  h3.contactez {
+    color: #143498;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  form {
+    width: 100%; 
+    max-width: 93%; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+    font-family: ;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%; /* Change the width to 100% */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    border: none;
+    background-color: #F5F5FF;
+  }
+
+  input[type="submit"] {
+    background-color: #143498;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+
+    #nom {
+        height: 50px;
+    }
+    #email {
+        height: 50px;
+    }
+
+    #message {
+        height: 100px;
+    }
+
+
+    /* fin form*/
 
 /* FOOTER*/
 
