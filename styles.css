@@ -367,6 +367,12 @@ h1 {
   /* form*/
 
   .formulaire{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cont-form {
     width: 70%;
     height: 500px;
     background-color: #143498;
@@ -374,16 +380,16 @@ h1 {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+    margin-top: 20%;
   }
 
-  .aide{
+  .aide {
     color: #000;
-    font-family: Avenir LT Std;
     font-size: 16px;
     font-style: normal;
     font-weight: 750;
   }
- 
+
   h3.contactez {
     color: #143498;
     font-family: Inter;
@@ -391,43 +397,59 @@ h1 {
     font-style: normal;
     font-weight: 700;
   }
-  
+
   form {
-    width: 1271px;
+    width: 100%; 
+    max-width: 93%; 
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 20px;
     background-color: #fff;
+    font-family: ;
   }
-  
+
   label {
     display: block;
-    margin-bottom: 10px;
-    width: 1100px;
+    margin-bottom: 20px;
   }
-  
+
   input[type="text"],
   input[type="email"],
   textarea {
-    width: 100%;
+    width: 100%; /* Change the width to 100% */
     padding: 10px;
-    border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 20px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    border: none;
+    background-color: #F5F5FF;
   }
-  
+
   input[type="submit"] {
-    background-color:#143498;
+    background-color: #143498;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
   }
-  
+
   input[type="submit"]:hover {
     background-color: #45a049;
   }
+
+
+    #nom {
+        height: 50px;
+    }
+    #email {
+        height: 50px;
+    }
+
+    #message {
+        height: 100px;
+    }
+
 
     /* fin form*/
 
