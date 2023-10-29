@@ -147,7 +147,7 @@ h1 {
 
 
 .quoi{
-    height: 1500px;
+    height: 1000px;
     background-image: url('image/revolution.jpg'); 
     background-size: cover;
     display: flex;
@@ -453,12 +453,51 @@ h1 {
 /* FOOTER*/
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+    background-color: #143498;
+    height: 200px;
     margin-top: 25%;
+    color: #ccc;
+    display: flex;
 }
+
+
+.contact{
+
+
+}
+
+.ulcontact{
+    list-style: none;
+
+}
+
+.Reseaux{
+
+}
+
+.ulreseaux{
+    list-style: none;
+
+}
+
+
+footer a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.logommi{
+    width: 166px;
+height: 80px;
+
+}
+
+
+.logoiut{
+    width: 197px;
+    height: 99px;
+}
+
 
 /* FIN FOOTER*/
 
