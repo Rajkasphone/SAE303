@@ -145,7 +145,7 @@ h1 {
 
 
 .quoi{
-    height: 1500px;
+    height: 1000px;
     background-image: url('image/revolution.jpg'); 
     background-size: cover;
     display: flex;
@@ -360,6 +360,119 @@ h1 {
   /*FIN LIEU DATE*/
 
 
+/*participer*/
+
+.participer{
+    height: 903px;
+    width: 100%;
+    background-color: #143498;
+}
+
+
+
+.partctnr{
+    background-color: #E7A70F;
+    border-radius: 90px;
+    display: flex;
+    justify-content:center;
+    width: 350px;
+    height: 60px;
+    align-items: center;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.parttitre{
+    font-family: Faster One;
+    color:#ffffff;
+    font-size: 40px;
+}
+
+.midle{
+    display: flex;
+    width: 100%;
+    height: 903px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.venir{
+    width: 481.2px;
+    height: 465px;
+    border-radius: 39px;
+    background: #FCC00E;
+    margin-left: 10%;
+    text-align: center;
+}
+
+h3.titrevenir{
+    font-size: 29px;
+}
+
+
+.venirtxt{
+    background: #143498;
+    height: 300px;
+    width: 350px;
+    border-radius: 49px;
+    display: block;
+    margin: 10% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.venirtxt p{
+    color: #ffff;
+    width: 300px;
+
+
+
+}
+
+.tuas{
+    width: 481.2px;
+    height: 465px;
+    border-radius: 39px;
+    background: #FCC00E;
+    margin-right: 10%;
+    text-align: center;
+
+}
+
+
+
+.reserverBTN{
+    width: 160px;
+    height: 62px;
+    background: white;
+    box-shadow: 4px 4px 0px black;
+    border-radius: 100px;
+    border: 3px #7EA0E0 solid;
+    margin-top: 10%;
+}
+
+.reserverBTN a{
+    font-size: 20px;
+    font-family: Inter;
+    font-weight:bold;
+}
+
+
+
+
+
+
+/*FIN participer*/
+
+
+
   /* form*/
 
   .formulaire{
@@ -451,12 +564,112 @@ h1 {
 /* FOOTER*/
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+    background-color: #143498;
+    height: 200px;
     margin-top: 25%;
+    color: #ccc;
+    display: flex;
 }
+
+footer h3{
+    color: #ffff;
+    font-size: 25px;
+}
+
+
+
+footer a {
+    color: white; 
+    text-decoration: none; 
+}
+
+
+/* img logo */
+
+.imgfoot{
+    display: flex;
+    align-items: center;
+
+    margin-left: 30%;
+    width: 25%;
+    justify-content: space-between;
+
+}
+
+.logommi{
+    width: 166px;
+height: 80px;
+
+
+}
+
+
+.logoiut{
+    width: 163px;
+    height: 82px;
+}
+/* FIN img logo */
+
+/* contact */
+
+.contact{
+    margin-left: 2%;
+}
+
+.ulcontact{
+    list-style: none;
+
+}
+
+.ulcontact img{
+    width: 18px;
+    height: 18px;
+}
+
+.ulcontact li{
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.ulcontact a{
+    margin-left: 5%;
+}
+
+
+
+/* FIN Contact*/
+
+/* reseaux */
+
+.Reseaux{
+    margin-left: 5%;
+}
+
+.ulreseaux{
+    list-style: none;
+
+}
+
+
+.ulreseaux img{
+    width: 18px;
+    height: 18px;
+}
+
+.ulreseaux li{
+    display: flex;
+    align-items: center;
+    margin-top: 17%;
+}
+
+.ulreseaux a{
+    margin-left: 10%;
+}
+
+/* FIN Reseaux*/
+
+
 
 /* FIN FOOTER*/
 
