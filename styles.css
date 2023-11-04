@@ -215,7 +215,7 @@ h1 {
 /*QUI*/
 
 .qui{
-    height: 400px;
+    background: #ECF6F8;
 }
 
 
@@ -233,6 +233,7 @@ h1 {
     height: 80px;
     align-items: center;
     position: absolute;
+    margin-top: 3%;
 }
 
 .quititre{
@@ -241,6 +242,43 @@ h1 {
     font-size: 40px;
     
 }
+
+
+
+/* GRILLE*/
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    margin-bottom: 10%;
+    margin-inline: 10%;
+    margin-top: 10%;
+  }
+  
+  .item {
+    display: grid;
+    text-align: center;
+    display: block;
+    margin: 4% auto;
+  }
+  
+  .item img {
+    width: 340px;
+    height: 340px;
+  }
+  
+  .item h2 {
+    margin: 10px 0;
+  }
+  
+  .item p {
+    margin: 0;
+  }
+
+/* FIN GRILLE*/
 
 
 
