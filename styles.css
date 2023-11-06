@@ -120,10 +120,18 @@ h1 {
 
 /* QUOI*/
 
+.quoi{
+    height: 1000px;
+    background-image: url('image/revolution.jpg'); 
+    background-size: cover;
+
+    align-items: center;
+}
 
 .quoidiv{
     display: flex;
     justify-content: center;
+    padding-top: 5%;
 }
 
 .quoictnr{
@@ -143,19 +151,13 @@ h1 {
 }
 
 
-.quoi{
-    height: 1000px;
-    background-image: url('image/revolution.jpg'); 
-    background-size: cover;
-    display: flex;
-    align-items: center;
-}
 
 .outer-rectangle {
     width: 600px; 
     height: 600px; 
     background-color: #E7A70F;
-    margin: 10%;
+    display: block;
+    margin: 100px auto;
     border-radius: 39px;
     display: flex;
     flex-direction: column; /* Stack child elements vertically */
@@ -264,9 +266,8 @@ h1 {
   }
   
   .item img {
-    width: 340px;
+    width: 200px;
     border-radius: 50%;
-    width: 200px; /* ou la largeur que vous souhaitez */
     height: 200px; /* la hauteur doit être égale à la largeur pour créer un cercle parfait */
     overflow: hidden; /* pour s'assurer que l'image ne dépasse pas le cercle */
   }
@@ -351,6 +352,7 @@ h1 {
 /* FIN LIEU*/
 
   /*DATE*/
+
 
 .date {
     width: 477px;
