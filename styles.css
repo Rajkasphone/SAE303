@@ -120,11 +120,10 @@ h1 {
 
 /* QUOI*/
 
+
 .quoidiv{
-    position: absolute;
     display: flex;
     justify-content: center;
-    margin-top: 55%;
 }
 
 .quoictnr{
@@ -135,7 +134,6 @@ h1 {
     width: 400px;
     height: 80px;
     align-items: center;
-    position: absolute;
 }
 
 .quoititre{
