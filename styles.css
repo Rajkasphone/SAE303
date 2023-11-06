@@ -267,7 +267,10 @@ h1 {
   
   .item img {
     width: 340px;
-
+    border-radius: 50%;
+    width: 200px; /* ou la largeur que vous souhaitez */
+    height: 200px; /* la hauteur doit être égale à la largeur pour créer un cercle parfait */
+    overflow: hidden; /* pour s'assurer que l'image ne dépasse pas le cercle */
   }
   
   .item h2 {
