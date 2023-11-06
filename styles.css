@@ -32,6 +32,7 @@ header {
     align-items: center;
     justify-content: flex-start; 
     position:fixed;
+    z-index: 9999;
 }
 
 .logoimg {
@@ -214,6 +215,7 @@ h1 {
 
 .qui{
     background: #ECF6F8;
+
 }
 
 
@@ -251,7 +253,7 @@ h1 {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 50px;
     grid-row-gap: 50px;
-    margin-bottom: 10%;
+    margin-bottom: 6%;
     margin-inline: 10%;
     margin-top: 10%;
   }
@@ -285,7 +287,7 @@ h1 {
 /*LIEU DATE*/
 
 .lieudate{
-    margin-bottom: 30%;
+    margin-bottom: 6%;
     display: flex;
     justify-content:center;
     background-color:#ffffff;
@@ -527,7 +529,7 @@ h3.titrevenir{
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    margin-top: 20%;
+    margin-top: 5%;
   }
 
   .aide {
@@ -604,7 +606,7 @@ h3.titrevenir{
 footer {
     background-color: #143498;
     height: 200px;
-    margin-top: 25%;
+    margin-top: 5%;
     color: #ccc;
     display: flex;
 }
