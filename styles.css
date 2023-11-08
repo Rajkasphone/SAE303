@@ -791,7 +791,6 @@ height: 80px;
     position: relative;
     width: 400px;
     height: 300px;
-    background-color: #000000; /* Nouvelle couleur de fond (bleu) */
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -826,7 +825,7 @@ height: 80px;
     height: 100%;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #211616;
+    background-color: #7EA0E0;
     transform: rotateX(-90deg);
     transform-origin: bottom;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
