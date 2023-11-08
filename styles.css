@@ -21,6 +21,7 @@ body {
     background-position: center; 
 }
 
+
 header {
     background-color: #ffffff;
     padding: 20px;
@@ -495,7 +496,7 @@ h3.titrevenir{
 
 
 
-.reserverBTN{
+.reserverBTN {
     width: 160px;
     height: 62px;
     background: white;
@@ -503,13 +504,22 @@ h3.titrevenir{
     border-radius: 100px;
     border: 3px #7EA0E0 solid;
     margin-top: 10%;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 
-.reserverBTN a{
+.reserverBTN a {
     font-size: 20px;
     font-family: Inter;
-    font-weight:bold;
+    font-weight: bold;
+    text-decoration: none; /* Pour enlever les soulignements des liens */
 }
+
+.reserverBTN:hover {
+    background-color: #7EA0E0; 
+    color: white; 
+    transform: scale(1.1); 
+}
+
 
 
 
