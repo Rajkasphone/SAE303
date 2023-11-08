@@ -767,6 +767,8 @@ height: 80px;
     grid-column-gap: 24px;
     grid-row-gap: 24px;
     background: #ECF6F8;
+    padding-top: 5%;
+    padding-bottom: 5%;
 
 
     }
@@ -798,7 +800,7 @@ height: 80px;
     perspective: 1000px;
     box-shadow: 0 0 0 5px #ffffff80;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    margin: 10%;
+
     
 }
 
