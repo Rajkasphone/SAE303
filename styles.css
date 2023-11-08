@@ -150,6 +150,7 @@ h1 {
     color:#ffffff;
     font-size: 40px;
     font-weight: 400;
+    letter-spacing: -3px;
 }
 
 
@@ -243,6 +244,7 @@ h1 {
     color:#ffffff;
     font-size: 40px;
     font-weight: 400;
+    letter-spacing: -3px;
     
 }
 
@@ -427,7 +429,7 @@ h1 {
     position: absolute;
     margin-left: 10%;
     margin-top: 4%;
-    
+    letter-spacing: -4px;
 }
 
 .parttitre{
