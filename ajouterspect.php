@@ -26,7 +26,7 @@ if(isset($_POST['ajouter'])){
   
   if(isset($prenom) && isset($email)){
     
-    $ajt = mysqli_query($con, "INSERT INTO membres (id, prenom, nom, email) VALUES ('', '$nom', '$email', '$tribune')");
+    $ajt = mysqli_query($con, "INSERT INTO spectateur (id, prenom, nom, email) VALUES ('', '$nom', '$email', '$tribune')");
     if($ajt){
     
       header('location: Test.html');
