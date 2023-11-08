@@ -148,6 +148,7 @@ h1 {
     font-family: Faster One;
     color:#ffffff;
     font-size: 40px;
+    font-weight: 400;
 }
 
 
@@ -240,6 +241,7 @@ h1 {
     font-family: Faster One;
     color:#ffffff;
     font-size: 40px;
+    font-weight: 400;
     
 }
 
@@ -424,12 +426,14 @@ h1 {
     position: absolute;
     margin-left: 10%;
     margin-top: 4%;
+    
 }
 
 .parttitre{
     font-family: Faster One;
     color:#ffffff;
     font-size: 40px;
+        font-weight: 400;
 }
 
 .midle{

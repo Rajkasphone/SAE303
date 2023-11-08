@@ -2,7 +2,7 @@
 
 
 include_once "connexion.php";
-
+session_start();
 
 ?>
 
@@ -14,7 +14,12 @@ include_once "connexion.php";
   <input type="submit" name="ajouter" value="ajouter">
 </form>
 
+
 <?php
+
+$_SESSION["nom"];
+$_COOKIE["nom"];
+
 if(isset($_POST['ajouter'])){
   extract($_POST);
 
@@ -33,3 +38,5 @@ if(isset($_POST['ajouter'])){
   $message = "Veuillez remplir tous les champs.";
 }
 }
+
+session_destroy();
