@@ -673,10 +673,12 @@ h3.titrevenir{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    
   }
 
   input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #455fa0;
   }
 
 
@@ -706,7 +708,9 @@ h3.titrevenir{
 /* FOOTER*/
 .svgfooter{
     margin-top: 5%;
+    margin-bottom: 0%;
     padding: 0;
+    background-color: #143498;
     
 }
 
