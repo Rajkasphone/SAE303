@@ -691,6 +691,15 @@ h3.titrevenir{
         height: 100px;
     }
 
+    .eclairform {
+        position: absolute;
+        transform: rotate(90deg);
+        margin-bottom: 50vh; /* ajusté pour la responsivité */
+        margin-left: 66vw; /* ajusté pour la responsivité */
+        width: 10vw; /* ajusté pour la responsivité */
+        height: auto; /* pour maintenir les proportions de l'image */
+    }
+    
 
     /* fin form*/
 
