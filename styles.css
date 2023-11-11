@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Section*/
@@ -694,25 +695,39 @@ h3.titrevenir{
     /* fin form*/
 
 /* FOOTER*/
-
-footer {
-    background-color: #143498;
-    height: 200px;
+.svgfooter{
     margin-top: 5%;
+    padding: 0;
+    
+}
+
+.svgfooter svg{
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #143498;
     color: #ccc;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
-footer h3{
+.footer h3{
     color: #ffff;
     font-size: 25px;
+    margin: 0;
+    padding: 0;
 }
 
 
 
-footer a {
+.footer a {
     color: white; 
     text-decoration: none; 
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -722,7 +737,7 @@ footer a {
     display: flex;
     align-items: center;
 
-    margin-left: 30%;
+    margin-left: 45%;
     width: 25%;
     justify-content: space-between;
 
@@ -730,7 +745,7 @@ footer a {
 
 .logommi{
     width: 166px;
-height: 80px;
+    height: 80px;
 
 
 }
