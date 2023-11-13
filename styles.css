@@ -397,6 +397,12 @@ h1 {
     height: 521px;
     position: relative;
     margin-right: 20%;
+   
+}
+
+.image-lieu:hover {
+    transform: scale(1.02);
+   
 }
 
 .blue-background {
@@ -416,6 +422,7 @@ h1 {
     left: 25px;
     top: 21px;
     border-radius: 39px;
+    transition: 500ms;
 
 }
 
