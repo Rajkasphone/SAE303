@@ -192,6 +192,7 @@
     </div>
 
     <div class="date">
+    <img src="image/eclair.png" alt="eclair" class="eclairdate">
         <div class="blue-background2">
             <div class="content2">
             <span>Lorem ipsum dolor sit amet,adi minim veniam, quis nois aute irure dolor in reprehenderit in volup dolore eunulla pariatur. Excepteur quis nois aute irure dolor sint occaecat cupidatat quis nois aute irure dolor non proident,quis nois aute irure dolor sunt in culpa qui </span>

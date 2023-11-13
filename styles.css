@@ -19,12 +19,10 @@ body {
     justify-content: center;
     background-image: url('image/workshow.png'); 
     background-size: cover;
-    background-position: center; 
-    
-    
-    
-
-    
+    background-position: center;  
+    position: relative;
+    box-shadow: 0px 10px 30px #212222;
+    z-index: 10;  
 }
 
 
@@ -137,7 +135,7 @@ h1 {
     background-color: #ECF6F8;
     background-size: cover;
     align-items: center;
-    z-index: 1;
+
 }
 
 .quoidiv{
@@ -176,6 +174,16 @@ h1 {
     display: flex;
     flex-direction: column; 
     align-items: center; 
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, 
+    rgba(50, 50, 50, 0.3) 10px 10px, 
+    rgba(100, 100, 100, 0.2) 15px 15px, 
+    rgba(150, 150, 150, 0.1) 20px 20px, 
+    rgba(200, 200, 200, 0.05) 25px 25px;
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, 
+    rgba(50, 50, 50, 0.3) 10px 10px, 
+    rgba(100, 100, 100, 0.2) 15px 15px, 
+    rgba(150, 150, 150, 0.1) 20px 20px, 
+    rgba(200, 200, 200, 0.05) 25px 25px;
 
 }
 
@@ -316,8 +324,8 @@ h1 {
 }
 
 .card svg {
-    width: 100%; /* Ajustez la largeur comme vous le souhaitez (par exemple, 80%) */
-    height: auto; /* Permet au SVG de conserver son aspect ratio */
+    width: 100%; 
+    height: auto; 
     fill: #333;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -445,13 +453,22 @@ h1 {
     height: 521px;
     position: relative;
   }
+
+  .eclairdate {
+    position: absolute;
+    transform: rotate(90deg);
+    margin-bottom: 57vh;
+    margin-left: 23vw;
+    width: 8vw;
+    height: auto;
+}
   
   .blue-background2 {
     width: 477px;
     height: 521px;
     left: 0px;
     top: 0px;
-    position: absolute;
+    
     background: #212222;
     border-radius: 50px;
   }
@@ -585,7 +602,7 @@ h3.titrevenir{
     background: white;
     box-shadow: 4px 4px 0px black;
     border-radius: 100px;
-    border: 3px #7EA0E0 solid;
+    border: 3px #343435 solid;
     margin-top: 10%;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
@@ -594,11 +611,12 @@ h3.titrevenir{
     font-size: 20px;
     font-family: Inter;
     font-weight: bold;
-    text-decoration: none; /* Pour enlever les soulignements des liens */
+    text-decoration: none; 
+    color: #212222;
 }
 
 .reserverBTN:hover {
-    background-color: #7EA0E0; 
+
     color: white; 
     transform: scale(1.1); 
 }
@@ -703,10 +721,10 @@ h3.titrevenir{
     .eclairform {
         position: absolute;
         transform: rotate(90deg);
-        margin-bottom: 50vh; /* ajusté pour la responsivité */
-        margin-left: 66vw; /* ajusté pour la responsivité */
-        width: 10vw; /* ajusté pour la responsivité */
-        height: auto; /* pour maintenir les proportions de l'image */
+        margin-bottom: 50vh; 
+        margin-left: 66vw; 
+        width: 10vw; 
+        height: auto;
     }
     
 
