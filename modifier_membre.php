@@ -40,9 +40,40 @@ if(isset($_POST['modifier'])){
 <html>
 <head>
     <title>Modifier Membre</title>
+    <link rel="stylesheet" href="stylerphp.css">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One&display=swap" rel="stylesheet" />
+</head>
 </head>
 <body>
-    <h1>Modifier Membre</h1>
+
+<div class="divheader">
+
+<header>
+
+    <nav>
+        <ul>
+            <li><a href="#quoid">Quoi</a></li>
+            <li><a href="#quiid">Qui</a></li>
+            <li><a href="#lieuid">Où</a></li>
+            <li><a href="#participerid">Participer</a></li>
+        </ul>
+    </nav>
+    <a href="index.php"><img src="image/logo.png" alt="logo" class="logoimg"></a>
+
+</header>
+
+</div>
+
+<div class="modifier">
+ 
+<div class="general4">
+
+    <div class="partctnr4">
+            <h2 class="parttitre4">Modifier un membre</h2>
+    </div>
+
+</div>
+    
     <form method="POST" action="">
         <input type="hidden" name="id_utilisateur" value="<?= $membre['uid'] ?>">
         <label for="nom_utilisateur">Nom d'Utilisateur :</label>
@@ -86,7 +117,7 @@ if(isset($_POST['modifier'])){
         <input type="submit" name="modifier" value="Modifier">
     </form>
 
-
+    </div>
 
 </body>
 </html>

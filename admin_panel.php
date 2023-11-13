@@ -45,6 +45,23 @@ $membres = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </head>
 <body>
 
+<div class="menucntr">
+
+<header>
+
+    <nav>
+        <ul>
+            <li><a href="#quoid">Quoi</a></li>
+            <li><a href="#quiid">Qui</a></li>
+            <li><a href="#lieuid">Où</a></li>
+            <li><a href="#participerid">Participer</a></li>
+        </ul>
+    </nav>
+    <a href="index.php"><img src="image/logo.png" alt="logo" class="logoimg"></a>
+
+</header>
+
+</div>
 
 
 <div class="general3">
