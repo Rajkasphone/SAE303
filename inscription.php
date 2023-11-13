@@ -2,10 +2,49 @@
 <html>
 <head>
     <title>Inscription</title>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <link rel="stylesheet" href="styleinscription.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Faster+One&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Avenir&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
 </head>
-<a href="admin_login.php" class="button">Accéder à la page d'administration</a>
+
+
 <body>
-    <h1>Inscription</h1>
+
+ <!-- menu  -->
+
+ <div class="menucntr">
+
+<header>
+
+    <nav>
+        <ul>
+            <li><a href="#quoid">Quoi</a></li>
+            <li><a href="#quiid">Qui</a></li>
+            <li><a href="#lieuid">Où</a></li>
+            <li><a href="#participerid">Participer</a></li>
+        </ul>
+    </nav>
+    <a href="index.php"><img src="image/logo.png" alt="logo" class="logoimg"></a>
+
+</header>
+
+</div>
+
+<!-- FIN menu  -->
+
+<div class="general">
+
+    <div class="partctnr">
+            <h2 class="parttitre">Inscription</h2>
+    </div>
+
+</div> 
+
+
     <form action="traitement_inscription.php" method="post">
 
         <label for="mail">Adresse e-mail :</label>
@@ -39,6 +78,13 @@
         <button type="submit">S'inscrire</button>
     </form>
 
+    <div class="admincntr">
+        
+        <a href="admin_login.php" class="administration">Accéder à la page d'administration</a>
+
+    </div>
+
+
     <script>
         // JavaScript pour afficher le champ "Tribune" ou "Horaire" en fonction du type d'utilisateur
         const typeUtilisateurSelect = document.getElementById('type_utilisateur');
@@ -56,3 +102,6 @@
     </script>
 </body>
 </html>
+
+
+
