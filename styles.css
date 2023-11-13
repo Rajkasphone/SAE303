@@ -6,6 +6,11 @@ body {
     box-sizing: border-box;
 }
 
+a, a:hover, a:visited, a:active {
+    text-decoration: none;
+}
+
+
 /* Section*/
 
 /* header*/
@@ -405,6 +410,9 @@ h1 {
     height: 521px;
     position: relative;
     margin-right: 20%;
+    text-decoration: none;
+    margin-top: 3%;
+    margin-left: 15vh;
    
 }
 
@@ -443,6 +451,7 @@ h1 {
     font-family: Inter;
     font-weight: 400;
     word-wrap: break-word;
+    text-decoration: none;
 }
 
 .venue {
@@ -456,6 +465,7 @@ h1 {
     font-family: Inter;
     font-weight: 700;
     word-wrap: break-word;
+    text-decoration: none;
 }
 
 /* FIN LIEU*/
@@ -467,6 +477,7 @@ h1 {
     width: 477px;
     height: 521px;
     position: relative;
+    margin-right: 4vh;
   }
 
   .eclairdate {
