@@ -1,4 +1,3 @@
-<!-- Acceuil  --> 
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -175,51 +174,6 @@
     <!-- FIN Partie QUI -->
     
 
-<!--    
-
-<div class="parent">
-
- <div class="item">
-      <img src="image/img1.jpg" alt="Image 1">
-      <h2>Prénom nom</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-
-    <div class="item">
-      <img src="image/img2.jpg" alt="Image 2">
-      <h2>Prénom nom</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-
-    <div class="item">
-        <img src="image/img3.jpg" alt="Image 2">
-        <h2>Prénom nom</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-
-      <div class="item">
-        <img src="image/img4.jpg" alt="Image 2">
-        <h2>Prénom nom</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-
-      <div class="item">
-        <img src="image/img5.jpg" alt="Image 2">
-        <h2>Prénom nom</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-
-      <div class="item">
-        <img src="image/img6.jpg" alt="Image 2">
-        <h2>Prénom nom</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-
-  </div>  fin div parent 
-
-
-</div> -->   <!-- fin div qui -->
-
 
 <!-- partie Lieu Date -->
 
@@ -272,7 +226,7 @@
                 <div class="venirtxt">
                     <p>Lorem ipsum dolor sit amet, consectetur adi minim veniam, quis nois aute irure dolor in reprehenderit in volup dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa quiLorem ipsum dolor sit amet, consectetur adi minim veniam, quis nois aute irure dolor in reprehenderit in volup dolore eu fugiat nulla pariatur. Excepteur</p>
                 </div>
-                <button class="reserverBTN"><a href="inscription.php" >Réserver</a></button>
+                <button class="reserverBTN"><a href="inscription.php">Réserver</a></button>
             </div>
 
             <div class="tuas">
@@ -281,7 +235,7 @@
                 <div class="venirtxt">
                     <p>Lorem ipsum dolor sit amet, consectetur adi minim veniam, quis nois aute irure dolor in reprehenderit in volup dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa quiLorem ipsum dolor sit amet, consectetur adi minim veniam, quis nois aute irure dolor in reprehenderit in volup dolore eu fugiat nulla pariatur. Excepteur</p>
                 </div>
-                <button class="reserverBTN"><a>S'inscrire</a></button>
+                <button class="reserverBTN" ><a href="inscription.php">S'inscrire</a></button>
             </div>
 
 

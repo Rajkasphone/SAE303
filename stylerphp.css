@@ -5,7 +5,7 @@ body {
     background: #ECF6F8;
 }
 
-/* Header */
+/* Inscription.php */
 
 .menucntr{
     width: 100%;
@@ -146,12 +146,13 @@ button {
 
 /* FIN Administration */
 
-/* Champ Tribune et Horaire */
+
 #tribune_field,
 #horaire_field {
     margin-top: 16px;
 }
 
+/* FIN Inscription.php */
 
 /* PAGE ADMINISTRATION*/
 
@@ -187,3 +188,99 @@ button {
 
 /* FIN PAGE ADMINISTRATION*/
 
+/* Admin_panel.php*/
+
+
+
+
+.general3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.partctnr3 {
+    background-color: #E7A70F;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    width: 650px;
+    height: 60px;
+    align-items: center;
+    letter-spacing: -4px;
+    margin-top: 2%;
+}
+
+.parttitre3 {
+    font-family: 'Faster One', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.divglobal{
+
+    margin: 2%;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2.liste {
+    color: #333;
+
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 2%;
+
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e1e1e1;
+}
+
+td a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+}
+
+td a:hover {
+    color: #007bff;
+}
+
+
+.deconnexion{
+
+}
+
+/* FIN Admin_panel.php*/

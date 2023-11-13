@@ -4,7 +4,7 @@
     <title>Inscription</title>
     <meta charset="UTF-8">
     <meta name="viewport">
-    <link rel="stylesheet" href="styleinscription.css">
+    <link rel="stylesheet" href="stylerphp.css">
     <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Faster+One&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Avenir&display=swap" rel="stylesheet" />

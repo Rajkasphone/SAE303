@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Connexion à l'Administration</title>
-    <link rel="stylesheet" href="styleinscription.css">
+    <link rel="stylesheet" href="stylerphp.css">
     <link href="https://fonts.googleapis.com/css?family=Faster+One&display=swap" rel="stylesheet" />
 </head>
 <body>

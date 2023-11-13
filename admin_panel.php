@@ -40,12 +40,24 @@ $membres = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <html>
 <head>
     <title>Interface d'Administration</title>
+    <link rel="stylesheet" href="stylerphp.css">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <h1>Interface d'Administration</h1>
-    <a href="admin_login.php">Déconnexion</a>
+
+
+
+<div class="general3">
+
+    <div class="partctnr3">
+            <h2 class="parttitre3">Interface d'administration</h2>
+    </div>
+
+</div> 
+
+<div class="divglobal">
     
-    <h2>Liste des Membres Inscrits</h2>
+    <h2 class="liste">Liste des Membres Inscrits</h2>
     <table>
         <tr>
             <th>ID</th>
@@ -78,5 +90,13 @@ $membres = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </tr>
         <?php } ?>
     </table>
+
+    <a href="admin_login.php" class="deconnexion">Déconnexion</a>
+   
+
+</div> 
+
+
+
 </body>
 </html>
