@@ -182,15 +182,18 @@
 
 <div class="lieudate">
 
+<div class="lieudate">
     <div class="lieu" id="lieuid">
         <div class="blue-background"> 
-        <a href="https://www.google.com/maps/place/Salle+Jean+Renoir/@45.5702516,5.9134502,16.32z/data=!4m6!3m5!1s0x478ba8749a16e813:0x3915daf889e723d3!8m2!3d45.5706528!4d5.9165168!16s%2Fg%2F1tl4by1d?entry=ttu" target="_blank" rel="noopener noreferrer">
-            <img class="image-lieu" src="image/lieu.png" alt="Image lieu">
+            <a href="https://www.google.com/maps/place/Salle+Jean+Renoir/@45.5702516,5.9134502,16.32z/data=!4m6!3m5!1s0x478ba8749a16e813:0x3915daf889e723d3!8m2!3d45.5706528!4d5.9165168!16s%2Fg%2F1tl4by1d?entry=ttu" target="_blank" rel="noopener noreferrer">
+                <img class="image-lieu" src="image/lieu.png" alt="Image lieu">
+            </a>
             <div class="address">13 Rue Nicolas Parent, Chambéry</div>
             <div class="venue">Salle Jeanrenoir</div>
         </div>
-       
     </div>
+</div>
+
 
     <div class="date">
     <img src="image/eclair.png" alt="eclair" class="eclairdate">
