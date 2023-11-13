@@ -154,7 +154,7 @@ button {
 
 /* FIN Inscription.php */
 
-/* PAGE ADMINISTRATION*/
+/* Admin_login*/
 
 
 .partctnr2 {
@@ -182,11 +182,12 @@ button {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 5%;
 }
 
 
 
-/* FIN PAGE ADMINISTRATION*/
+/* FIN Admin_login*/
 
 /* Admin_panel.php*/
 
@@ -368,3 +369,35 @@ td a:hover {
 
 
 /* FIN Modifier_membre.php*/
+
+
+/* confirmation.php*/
+
+
+
+.divConf h1 {
+    text-align: center;
+    color: #333;
+
+}
+
+.divConf p {
+    text-align: center;
+}
+
+.divConf a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.divConf a:hover {
+    color: #010a6f;
+}
+
+
+/* FIN confirmation.php*/
