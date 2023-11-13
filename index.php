@@ -1,4 +1,4 @@
-
+<!-- Acceuil  --> 
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -57,7 +57,7 @@
 <!-- Partie QUOI -->
 
 <div class="quoi" id="quoid">
-=
+
     
 
         <div class="quoidiv">
