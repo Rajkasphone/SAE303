@@ -58,7 +58,7 @@ $membres = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <div class="divglobal">
     
     <h2 class="liste">Liste des Membres Inscrits</h2>
-    <table>
+    <table class="tableadmin">
         <tr>
             <th>ID</th>
             <th>Nom d'Utilisateur</th>

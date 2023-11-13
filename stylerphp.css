@@ -226,12 +226,12 @@ button {
 
 
 
-a {
+.tableadmin a {
     text-decoration: none;
     color: #007bff;
 }
 
-a:hover {
+.tableadmin a:hover {
     text-decoration: underline;
 }
 
