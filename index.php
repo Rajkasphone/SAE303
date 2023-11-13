@@ -1,4 +1,4 @@
-<!-- Acceuil  --> 
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -15,7 +15,8 @@
 </head>
 <body>
 
-<!-- Test Malo Pull  --> 
+
+
 
 <!-- Acceuil  --> 
 
