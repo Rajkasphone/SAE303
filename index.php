@@ -16,7 +16,7 @@
 <body>
 
 
-<!-- Acceuil  --> <!-- CACA  --> 
+<!-- Acceuil  --> 
 
     <!-- menu  -->
 
@@ -57,7 +57,7 @@
 <!-- Partie QUOI -->
 
 <div class="quoi" id="quoid">
-
+=
     
 
         <div class="quoidiv">
