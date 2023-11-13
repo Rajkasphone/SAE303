@@ -1,0 +1,189 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ECF6F8;
+}
+
+/* Header */
+
+.menucntr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 100px;
+    margin-top: 20px;
+    height: 34px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 9999;
+}
+
+.logoimg {
+    width: 113px;
+    height: 42px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+nav {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+}
+
+/* Titre */
+.partctnr {
+    background-color: #E7A70F;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 60px;
+    align-items: center;
+    letter-spacing: -4px;
+    margin-top: 7%;
+}
+
+.parttitre {
+    font-family: 'Faster One', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+
+.general {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* FIN Titre */
+
+
+
+/* Form */
+form {
+    max-width: 400px;
+    margin: 4% auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #428bca;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Administration */
+.admincntr {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.administration {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: #0056b3; 
+    color: white; 
+    text-decoration: none; 
+    font-family: 'Arial', sans-serif;
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+}
+
+.administration:hover, .administration:focus {
+    background-color: #003d82;
+    color: #ffffff; 
+    text-decoration: none; 
+    outline: none; 
+}
+
+/* FIN Administration */
+
+/* Champ Tribune et Horaire */
+#tribune_field,
+#horaire_field {
+    margin-top: 16px;
+}
+
+
+/* PAGE ADMINISTRATION*/
+
+
+.partctnr2 {
+    background-color: #E7A70F;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 60px;
+    align-items: center;
+    letter-spacing: -4px;
+    margin-top: 2%;
+}
+
+.parttitre2 {
+    font-family: 'Faster One', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+
+.general2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* FIN PAGE ADMINISTRATION*/
+

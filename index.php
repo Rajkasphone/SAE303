@@ -271,7 +271,7 @@
                 <div class="venirtxt">
                     <p>Lorem ipsum dolor sit amet, consectetur adi minim veniam, quis nois aute irure dolor in reprehenderit in volup dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa quiLorem ipsum dolor sit amet, consectetur adi minim veniam, quis nois aute irure dolor in reprehenderit in volup dolore eu fugiat nulla pariatur. Excepteur</p>
                 </div>
-                <button class="reserverBTN"><a>Réserver</a></button>
+                <button class="reserverBTN"><a href="inscription.php" >Réserver</a></button>
             </div>
 
             <div class="tuas">
