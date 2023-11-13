@@ -197,6 +197,7 @@ button {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 6%;
 }
 
 .partctnr3 {
@@ -219,19 +220,18 @@ button {
 }
 
 .divglobal{
-
     margin: 2%;
 }
 
 
 
 
-a {
+.tableadmin a {
     text-decoration: none;
     color: #007bff;
 }
 
-a:hover {
+.tableadmin a:hover {
     text-decoration: underline;
 }
 
@@ -281,3 +281,90 @@ td a:hover {
 
 
 /* FIN Admin_panel.php*/
+
+/* Modifier_membre.php*/
+
+
+.divheader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.general4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.partctnr4 {
+    background-color: #E7A70F;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    width: 650px;
+    height: 60px;
+    align-items: center;
+    letter-spacing: -4px;
+    margin-top: 8%;
+}
+
+.parttitre4 {
+    font-family: 'Faster One', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+
+
+.modifier form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 3%;
+}
+
+.modifier label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.modifier input[type="text"],
+.modifier input[type="email"],
+.modifier select,
+.modifier input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.modifier select {
+    height: 38px; /* Adjust the height as needed */
+}
+
+.modifier input[type="submit"] {
+    background-color: #428bca;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.modifier input[type="submit"]:hover {
+    background-color:#003d82;
+}
+
+
+
+/* FIN Modifier_membre.php*/
