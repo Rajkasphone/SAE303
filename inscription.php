@@ -81,8 +81,10 @@
         </div><br>
 
         <button type="submit">S'inscrire</button>
-        <a href="login.php">J'ai déjà un compte</a>
+        <a class="compte" href="login.php">J'ai déjà un compte</a>
     </form>
+
+
 
     <div class="admincntr">
         

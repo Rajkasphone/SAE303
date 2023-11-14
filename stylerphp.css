@@ -5,9 +5,9 @@ body {
     background: #ECF6F8; 
 }
 
-/*background: #131313; */
 
-/* Inscription.php */
+
+/* Header */
 
 .menucntr{
     width: 100%;
@@ -64,6 +64,10 @@ nav ul li a {
     color: #000000;
     font-size: 17px;
 }
+
+/* FIN Header */
+
+/* Inscription.php */
 
 /* Titre */
 .partctnr {
@@ -151,6 +155,12 @@ button {
     color: #ffffff; 
     text-decoration: none; 
     outline: none; 
+}
+
+
+
+.compte{
+    
 }
 
 /* FIN Administration */
