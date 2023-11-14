@@ -158,18 +158,7 @@ button {
 }
 
 
-.compte {
-    display: block; /* Permet au lien de prendre toute la largeur disponible */
-    margin-top: 10px; /* Marge en haut pour l'espacement */
-    text-align: center; /* Centre le texte */
-    text-decoration: none; /* Supprime le soulignement par défaut du lien */
-    color: #333; /* Couleur du texte */
-    font-weight: bold; /* Gras */
-}
 
-.compte:hover {
-    color: #555; /* Couleur du texte au survol */
-}
 
 
 
