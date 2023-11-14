@@ -160,6 +160,17 @@ button {
 }
 
 
+<<<<<<< HEAD
+=======
+.compte {
+    display: block; 
+    margin-top: 10px; 
+    text-align: center; 
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold; 
+}
+>>>>>>> 30be983d94326aa3e156f912f553b987192d4851
 
 
 
@@ -421,3 +432,33 @@ td a:hover {
 
 
 /* FIN confirmation.php*/
+
+/* Debut compte.php*/
+
+.main {
+    text-align: center;
+    margin-top: 150px; 
+    padding: 0 20px; 
+}
+
+.main h1, .main h2 {
+    color: #333; 
+    margin-bottom: 20px;
+}
+
+.main a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #428bca; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold; 
+    margin-top: 20px; 
+}
+
+.main a:hover {
+    background-color: #003d82;
+    color: #ffffff;
+    text-decoration: none; 
+}
