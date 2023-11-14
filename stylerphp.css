@@ -2,8 +2,10 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background: #ECF6F8;
+    background: #ECF6F8; 
 }
+
+/*background: #131313; */
 
 /* Inscription.php */
 
@@ -29,11 +31,18 @@ header {
 }
 
 .logoimg {
-    width: 113px;
-    height: 42px;
+    width: 146px;
+    height: 45px;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+   
+}
+
+
+.divA a{
+    display: flex;
+    align-items: center;
 }
 
 nav {
