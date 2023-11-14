@@ -1,5 +1,5 @@
 <?php
-// Vérification du mot de passe (à intégrer à votre page d'administration)
+ // Vérification du mot de passe (à intégrer à votre page d'administration)
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mot_de_passe_saisi = $_POST['mot_de_passe'];
 
@@ -8,11 +8,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header('Location: admin_login.php');
         exit();
     }
-} else {
+}else {
     // Si le formulaire n'a pas été soumis, rediriger vers la page de connexion
     header('Location: admin_login.php');
     exit();
 }
+
 
 // Connexion à la base de données (à configurer avec vos informations)
 include_once "connexion.php";

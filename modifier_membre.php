@@ -26,9 +26,20 @@ require_once 'connexion.php'; // Inclure le fichier de configuration de la base 
 
 if(isset($_POST['modifier'])){
     extract($_POST);
-        $sqlintervenant = mysqli_query($connexion, "UPDATE utilisateur SET nom_utilisateur = '$nom_utilisateur' , uemail = '$email' WHERE uid = '$id_utilisateur'");
-        if($sqlintervenant) {
-            echo"ok";
+    $type_utilisateur = $membre['type_utilisateur'];
+    $sqluser = mysqli_query($connexion, "UPDATE utilisateur SET nom_utilisateur = '$nom_utilisateur' , uemail = '$email' WHERE uid = '$id_utilisateur'");
+    
+    
+
+    if($type_utilisateur == "spectateur"){
+        $sqlspectateur = "UPDATE spectateur SET tribune = '$tribune' WHERE id_utilisateur = '$id_utilisateur'";
+        mysqli_query($connexion, $sqlspectateur) ;
+    }else if($type_utilisateur == "intervenant"){
+        $sqlintervenant = "UPDATE intervenant SET horaire = '$horaire' WHERE id_utilisateur = '$id_utilisateur'";
+        mysqli_query($connexion, $sqlintervenant);
+    };
+        if($sqluser) {
+            header('location: admin_panel.php');
 
     }else {
         echo "erruer";
@@ -111,9 +122,11 @@ if(isset($_POST['modifier'])){
 
             <?php
         }else {
+            $date = date("Y-m-d", strtotime($membre["horaire"]));
+            $heure = date("h:m", strtotime($membre["horaire"]));
             ?>
             <label for="horaire">Horaire de passage (pour les intervenants) :</label>
-            <input type="datetime-local" id="horaire" name="horaire" value="<?=$membre["horaire"]?>">
+            <input type="datetime-local" id="horaire" name="horaire" value="<?=$date.'T'.$heure?>">
             <?php
         }
         

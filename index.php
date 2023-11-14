@@ -78,7 +78,7 @@
 
     <div class="outer-rectangle">
         <div class="inner-rectangle">
-            <div class="inner-title">Nom Prénom</div>
+            <div class="inner-title">Evenement Incroyable</div>
             <div class="inner-text">Lorem ipsum dolor sit amet,nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui adi minim veniam, quis nois aute irure dolor in reprehenderit in volup dolore eu</div>
         </div>
         <div class="outer-text">Lorem ipsum dolor sit amet,nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui adi minim veniam, quis nois aute irure dolor in reprehenderit in volup dolore eu</div>
