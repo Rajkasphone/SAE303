@@ -13,7 +13,7 @@
         
 
         // Insertion dans la table "utilisateur" (pour l'authentification)
-        $mot_de_passe_hache = password_hash($mot_de_passe, PASSWORD_DEFAULT);
+        $mot_de_passe_hache = hash("sha256", $_POST['mot_de_passe']);
         $sql = "INSERT INTO `utilisateur` (`nom_utilisateur`, `mot_de_passe`, `uemail`, `type_utilisateur`) VALUES (?, ?, ?, ?)";
         $stmt = $bdd->prepare($sql);
         $stmt->execute([$nom_utilisateur, $mot_de_passe_hache, $mail, $type_utilisateur]);
